@@ -1,0 +1,57 @@
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    /*questo mi indica la grandezza massima (il WIDTH che ho impostato ad esempio nella classe box) che deve fare riferimento al BORDO del box, quindi anche se aumentassi bordo, padding, ecc, il box occupa SEMPRE il 30%*/
+}
+
+.formItem {
+    margin: 20px 0px;
+}
+
+.formItem input,
+.formItem select {
+    width: 70%;
+}
+
+form {
+    border: coral 1px solid;
+    padding: 10px 10px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+nav li {
+    /*qui intendiamo i LI figli di NAV*/
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border: dashed;
+}
+
+ul,
+li {
+    padding: 0px;
+}
+
+.box {
+    border: 2px solid;
+    border-color: green red;
+    display: inline-block;
+    width: 30%;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+}
